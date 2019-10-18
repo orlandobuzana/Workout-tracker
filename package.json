@@ -1,0 +1,33 @@
+{
+  "name": "workout-tracker",
+  "version": "1.0.0",
+  "description": "Track your workout goals and achievements ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orlandobuzana/Workout-tracker.git"
+  },
+  "keywords": [
+    "workout"
+  ],
+  "author": "Orlando Buzana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orlandobuzana/Workout-tracker/issues"
+  },
+  "homepage": "https://github.com/orlandobuzana/Workout-tracker#readme",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
+    "mlab": "^1.0.30-beta",
+    "mongodb": "^3.2.3",
+    "glob": "^7.1.4",
+    "mongojs": "^2.6.0",
+    "morgan": "^1.9.1"
+  }
+}
